@@ -1,10 +1,10 @@
 <?php
 // config/database.php
 class Database {
-    private $host = "localhost";
-    private $db_name = "cloud_system";
-    private $username = "dein_cloud_user";
-    private $password = "DeinSicheresPasswort";
+    private $host = "";
+    private $db_name = "";
+    private $username = "";
+    private $password = "";
     public $conn;
 
     public function getConnection() {
